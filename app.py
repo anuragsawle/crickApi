@@ -8,5 +8,4 @@ def helloworld():
     d['msg']='Hello World'
     return jsonify(d)
 
-if __name__ =='__main__':
-    app.run(debug=True)
+
