@@ -1,11 +1,14 @@
-from flask import Flask,jsonify
+from flask import Flask, jsonify
+from pycricbuzz import Cricbuzz
 
 app = Flask(__name__)
 
-@app.route('/',methods=['GET'])
+
+@app.route('/', methods=['GET'])
 def helloworld():
-    d={}
-    d['msg']='Hello World'
+    c = Cricbuzz()
+    matches = c.matches()
+    d = []
+    for match in matches:
+        d.append(match)
     return jsonify(d)
-
-

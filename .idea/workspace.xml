@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6567449d-7653-485c-855a-9fd3a3b6e5dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crick.py" beforeDir="false" afterPath="$PROJECT_DIR$/crick.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,10 +33,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cricbuzzApi" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Python.crick">
+  <component name="RunManager" selected="Python.wsgi">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="flask" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -77,8 +79,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="wsgi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="flask" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wsgi.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.wsgi" />
         <item itemvalue="Python.crick" />
         <item itemvalue="Python.app" />
       </list>
@@ -95,44 +119,74 @@
       <option name="presentableId" value="Default" />
       <updated>1601013536728</updated>
     </task>
+    <task id="LOCAL-00001" summary="Second Commit">
+      <created>1601027557681</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601027557681</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Second Commit">
+      <created>1601027606476</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601027606476</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Second Commit">
+      <created>1601027647338</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601027647338</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Second Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Second Commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="679" y="358" width="619" height="397" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601027215569">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="679" y="358" width="619" height="397" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1601027215569" />
-    <state x="597" y="92" width="782" height="930" key="CommitChangelistDialog2" timestamp="1601027605890">
+    <state x="597" y="92" width="782" height="930" key="CommitChangelistDialog2" timestamp="1601027647281">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="597" y="92" width="782" height="930" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1601027605890" />
-    <state x="846" y="448" key="Github.ShareDialog" timestamp="1601024062230">
+    <state x="597" y="92" width="782" height="930" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1601027647281" />
+    <state x="776" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1601031604135">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="846" y="448" key="Github.ShareDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1601024062230" />
-    <state width="1830" height="275" key="GridCell.Tab.0.bottom" timestamp="1601016493565">
+    <state x="776" y="311" width="424" height="491" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1601031604135" />
+    <state x="846" y="448" key="Github.ShareDialog" timestamp="1601027749189">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="275" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1601016493565" />
-    <state width="1830" height="275" key="GridCell.Tab.0.center" timestamp="1601016493564">
+    <state x="846" y="448" key="Github.ShareDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1601027749189" />
+    <state width="1830" height="275" key="GridCell.Tab.0.bottom" timestamp="1601032751022">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="275" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1601016493564" />
-    <state width="1830" height="275" key="GridCell.Tab.0.left" timestamp="1601016493563">
+    <state width="1830" height="275" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1601032751022" />
+    <state width="1830" height="275" key="GridCell.Tab.0.center" timestamp="1601032751022">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="275" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1601016493563" />
-    <state width="1830" height="275" key="GridCell.Tab.0.right" timestamp="1601016493564">
+    <state width="1830" height="275" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1601032751022" />
+    <state width="1830" height="275" key="GridCell.Tab.0.left" timestamp="1601032751021">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="275" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1601016493564" />
+    <state width="1830" height="275" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1601032751021" />
+    <state width="1830" height="275" key="GridCell.Tab.0.right" timestamp="1601032751022">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1830" height="275" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1601032751022" />
     <state x="482" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1601013634421">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="482" y="188" width="1022" height="737" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1601013634421" />
-    <state x="649" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1601023937201">
+    <state x="649" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1601031574602">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="649" y="381" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1601023937201" />
+    <state x="649" y="381" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1601031574602" />
   </component>
 </project>
