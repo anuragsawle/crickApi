@@ -8,7 +8,11 @@ app = Flask(__name__)
 def getMatches():
     c = Cricbuzz()
     matches = c.matches()
-    d = []
+    a = []
     for match in matches:
-        d.append(match)
-    return jsonify(d)
+        d = {'series': match['srs'],
+             'team1': match['team1']['name'],
+             'team2': match['team2']['name'],
+             'status': match['status']}
+        a.append(d)
+    return jsonify(a)
