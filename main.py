@@ -6,5 +6,5 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET'])
 def getMatches():
-    d={'name':'Anurag'}
+    d = {'name': 'Anurag'}
     return jsonify(d)
