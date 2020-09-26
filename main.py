@@ -6,6 +6,5 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET'])
 def getMatches():
-    c = Cricbuzz()
-    matches = c.matches()
-    return jsonify(matches)
+    d={'name':'Anurag'}
+    return jsonify(d)
